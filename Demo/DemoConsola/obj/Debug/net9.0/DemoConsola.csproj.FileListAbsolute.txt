@@ -1,0 +1,15 @@
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\bin\Debug\net9.0\DemoConsola.exe
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\bin\Debug\net9.0\DemoConsola.deps.json
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\bin\Debug\net9.0\DemoConsola.runtimeconfig.json
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\bin\Debug\net9.0\DemoConsola.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\bin\Debug\net9.0\DemoConsola.pdb
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.GeneratedMSBuildEditorConfig.editorconfig
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.AssemblyInfoInputs.cache
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.AssemblyInfo.cs
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.csproj.CoreCompileInputs.cache
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.sourcelink.json
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\refint\DemoConsola.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.pdb
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\DemoConsola.genruntimeconfig.cache
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsola\obj\Debug\net9.0\ref\DemoConsola.dll

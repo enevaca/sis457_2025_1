@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DemoConsola/1.0.0": {
+        "runtime": {
+          "DemoConsola.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoConsola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

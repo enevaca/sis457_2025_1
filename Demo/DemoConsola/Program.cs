@@ -1,4 +1,5 @@
-﻿// Esto es un comentario
+﻿using DemoConsola;
+// Esto es un comentario
 /* Esto es un
  * un comentario en múltiples líneas
  */
@@ -109,3 +110,27 @@ for (int i = 2; i <= Math.Abs(numero); i++) factorial *= i;
 if (numero < 0) factorial *= -1;
 Console.WriteLine($"El factorial de {numero} es {factorial}");
 
+// POO
+Persona persona = new Persona();
+persona.cedulaIdentidad = "1234567";
+persona.nombres = "Juan";
+persona.primerApellido = "Pérez";
+persona.segundoApellido = "García";
+persona.fechaNacimiento = DateTime.Parse("2000-03-10");
+persona.celular = 77777777;
+persona.saludar();
+Console.WriteLine($"Edad: {persona.edad()}");
+
+Estudiante estudiante = new Estudiante();
+estudiante.cedulaIdentidad = "7654321";
+estudiante.nombres = "María";
+estudiante.primerApellido = "Cortez";
+estudiante.segundoApellido = "Gómez";
+estudiante.fechaNacimiento = DateTime.Parse("2015-05-20");
+estudiante.carnetUniversitario = "35-2860";
+estudiante.saludar();
+
+int cantidadEstudiantes = 2;
+List<Estudiante> estudiantes = new List<Estudiante>();
+
+// Proximamente código avanzado en clases

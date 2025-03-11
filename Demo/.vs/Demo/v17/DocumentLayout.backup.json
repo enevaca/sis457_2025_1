@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|solutionrelative:democonsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsola\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|solutionrelative:democonsola\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsola\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|solutionrelative:democonsola\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Estudiante.cs",
+              "RelativeDocumentMoniker": "DemoConsola\\Estudiante.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Estudiante.cs",
+              "RelativeToolTip": "DemoConsola\\Estudiante.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:20:16.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Persona.cs",
+              "RelativeDocumentMoniker": "DemoConsola\\Persona.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Persona.cs",
+              "RelativeToolTip": "DemoConsola\\Persona.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:07:29.744Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "DemoConsola\\Program.cs",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Program.cs",
               "RelativeToolTip": "DemoConsola\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAA7wG8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAowJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T13:37:35.642Z",
               "EditorCaption": ""

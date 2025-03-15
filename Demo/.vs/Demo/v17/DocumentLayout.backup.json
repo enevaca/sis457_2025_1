@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|solutionrelative:democonsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsola\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|solutionrelative:democonsola\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsola\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0286FA21-0415-4221-A730-8742A5A225A3}|DemoConsola\\DemoConsola.csproj|solutionrelative:democonsola\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Estudiante.cs",
-              "RelativeDocumentMoniker": "DemoConsola\\Estudiante.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Estudiante.cs",
-              "RelativeToolTip": "DemoConsola\\Estudiante.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAsAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Abstract.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Abstract.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Abstract.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T00:20:16.84Z",
+              "WhenOpened": "2025-03-15T14:30:14.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Persona.cs",
-              "RelativeDocumentMoniker": "DemoConsola\\Persona.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Persona.cs",
-              "RelativeToolTip": "DemoConsola\\Persona.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Inmutable.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Inmutable.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Inmutable.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Inmutable.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Inmutable.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T00:07:29.744Z",
+              "WhenOpened": "2025-03-15T13:39:25.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Program.cs",
-              "RelativeDocumentMoniker": "DemoConsola\\Program.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsola\\Program.cs",
-              "RelativeToolTip": "DemoConsola\\Program.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAowJYAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Program.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:37:35.642Z",
+              "WhenOpened": "2025-03-15T13:34:07.612Z",
               "EditorCaption": ""
             }
           ]

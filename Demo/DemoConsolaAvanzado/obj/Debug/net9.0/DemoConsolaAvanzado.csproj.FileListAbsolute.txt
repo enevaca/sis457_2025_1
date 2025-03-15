@@ -1,0 +1,15 @@
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\bin\Debug\net9.0\DemoConsolaAvanzado.exe
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\bin\Debug\net9.0\DemoConsolaAvanzado.deps.json
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\bin\Debug\net9.0\DemoConsolaAvanzado.runtimeconfig.json
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\bin\Debug\net9.0\DemoConsolaAvanzado.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\bin\Debug\net9.0\DemoConsolaAvanzado.pdb
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.GeneratedMSBuildEditorConfig.editorconfig
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.AssemblyInfoInputs.cache
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.AssemblyInfo.cs
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.csproj.CoreCompileInputs.cache
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.sourcelink.json
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\refint\DemoConsolaAvanzado.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.pdb
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.genruntimeconfig.cache
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\ref\DemoConsolaAvanzado.dll

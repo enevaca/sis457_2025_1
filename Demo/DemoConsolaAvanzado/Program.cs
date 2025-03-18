@@ -1,4 +1,53 @@
-﻿using DemoConsolaAvanzado;
+﻿using DemoBiblioteca;
+using DemoConsolaAvanzado;
+
+// Biblioteca de Clases
+int suma = Calculadora.sumar(30, 17);
+int resta = Calculadora.restar(20, 15);
+int mult = Calculadora.multiplicar(6, 8);
+int division = Calculadora.dividir(16, 4);
+int modulo = Calculadora.modulo(16, 4);
+Console.WriteLine($"Suma: {suma}, Resta: {resta}...");
+
+// Delegados
+static string revertirCadena(string cadena)
+{
+    return new string(cadena.Reverse().ToArray());
+}
+Revertir revertir = revertirCadena;
+Console.WriteLine(revertir("Hola Delegado"));
+
+void imprimir(string cadena)
+{
+    Console.WriteLine($"Delegado Action: {cadena}");
+}
+Action<string> imp = imprimir;
+imp("Fundamentos de la Programación");
+
+Func<int, int, int> multiplicar = (n1, n2) => n1 * n2;
+int multiplicacion = multiplicar(3, 4);
+Console.WriteLine($"Func -> El resultado de la multiplicación es: {multiplicacion}");
+
+Predicate<int> mayorEdad = edad => edad >= 18;
+bool esMayorEdad = mayorEdad(22);
+Console.WriteLine($"Predicate -> Mayor de edad: {esMayorEdad}");
+
+// Genéricos
+Generico<int, string> generico = new Generico<int, string>();
+generico.campo1 = 56;
+generico.campo2 = "Esto es un Genérico";
+generico.imprimir(10);
+
+Generico<bool, Automovil> generico2 = new Generico<bool, Automovil>();
+generico2.campo1 = true;
+generico2.campo2 = new Automovil();
+generico2.imprimir(false);
+
+// Interfaces
+Automovil automovil = new Automovil();
+automovil.acelerar(80);
+automovil.frenar();
+automovil.girar(15);
 
 // Clases Abstractas
 // FiguraGeometrica figura = new FiguraGeometrica(); // No se puede instancia

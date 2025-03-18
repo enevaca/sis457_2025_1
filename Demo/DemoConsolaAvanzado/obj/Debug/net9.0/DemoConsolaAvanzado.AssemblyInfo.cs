@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoConsolaAvanzado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2f6409196cb4eedaaafb87f0f0f51f6597532b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+778e91d5b062d91e8378f97d95813d59ea449e81")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoConsolaAvanzado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoConsolaAvanzado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

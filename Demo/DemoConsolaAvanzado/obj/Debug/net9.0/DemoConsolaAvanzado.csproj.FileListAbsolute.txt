@@ -13,3 +13,7 @@ D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\refint\De
 D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.pdb
 D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.genruntimeconfig.cache
 D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\ref\DemoConsolaAvanzado.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoConsolaAvanzado.csproj.AssemblyReference.cache
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\bin\Debug\net9.0\DemoBiblioteca.dll
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\bin\Debug\net9.0\DemoBiblioteca.pdb
+D:\usfx\SIS457\sis457_2025_1\Demo\DemoConsolaAvanzado\obj\Debug\net9.0\DemoCons.23C42EBD.Up2Date

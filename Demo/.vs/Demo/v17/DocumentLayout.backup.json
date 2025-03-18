@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CBFC9C9-1243-4DAA-95A9-4598A8287164}|DemoBiblioteca\\DemoBiblioteca.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\demobiblioteca\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBFC9C9-1243-4DAA-95A9-4598A8287164}|DemoBiblioteca\\DemoBiblioteca.csproj|solutionrelative:demobiblioteca\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Abstract.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
-              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Abstract.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
-              "RelativeToolTip": "DemoConsolaAvanzado\\Abstract.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAqAAAAAAAAAA==",
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoBiblioteca\\Calculadora.cs",
+              "RelativeDocumentMoniker": "DemoBiblioteca\\Calculadora.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoBiblioteca\\Calculadora.cs",
+              "RelativeToolTip": "DemoBiblioteca\\Calculadora.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:30:14.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Inmutable.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Inmutable.cs",
-              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Inmutable.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Inmutable.cs",
-              "RelativeToolTip": "DemoConsolaAvanzado\\Inmutable.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA8wAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:39:25.011Z",
+              "WhenOpened": "2025-03-17T23:50:37.985Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +41,7 @@
               "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Program.cs",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
               "RelativeToolTip": "DemoConsolaAvanzado\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T13:34:07.612Z",
               "EditorCaption": ""

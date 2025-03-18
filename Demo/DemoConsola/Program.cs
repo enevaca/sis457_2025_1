@@ -133,4 +133,19 @@ estudiante.saludar();
 int cantidadEstudiantes = 2;
 List<Estudiante> estudiantes = new List<Estudiante>();
 
-// Proximamente código avanzado en clases
+for (int i = 1; i <= cantidadEstudiantes; i++)
+{
+    var itemEstudiante = new Estudiante();
+    Console.WriteLine($"Ingrese el Nombre del estudiante {i}:");
+    itemEstudiante.nombres = Console.ReadLine();
+
+    Console.WriteLine($"Ingrese el Primer Apellido del estudiante {i}:");
+    itemEstudiante.primerApellido = Console.ReadLine();
+
+    Console.WriteLine($"Ingrese el CU del estudiante {i}:");
+    itemEstudiante.carnetUniversitario = Console.ReadLine();
+
+    estudiantes.Add(itemEstudiante);
+}
+
+foreach (var item in estudiantes) item.saludar();

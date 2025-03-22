@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7ED36501-A9A3-4A37-ABF2-79FA95C8904E}|DemoPruebaUnitaria\\DemoPruebaUnitaria.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\demopruebaunitaria\\testcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED36501-A9A3-4A37-ABF2-79FA95C8904E}|DemoPruebaUnitaria\\DemoPruebaUnitaria.csproj|solutionrelative:demopruebaunitaria\\testcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CBFC9C9-1243-4DAA-95A9-4598A8287164}|DemoBiblioteca\\DemoBiblioteca.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\demobiblioteca\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CBFC9C9-1243-4DAA-95A9-4598A8287164}|DemoBiblioteca\\DemoBiblioteca.csproj|solutionrelative:demobiblioteca\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2025_1\\demo\\democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C56F57B-70F9-4B4C-8871-6CED00E3AB89}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,6 +25,23 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestCalculadora.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoPruebaUnitaria\\TestCalculadora.cs",
+              "RelativeDocumentMoniker": "DemoPruebaUnitaria\\TestCalculadora.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoPruebaUnitaria\\TestCalculadora.cs",
+              "RelativeToolTip": "DemoPruebaUnitaria\\TestCalculadora.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:17:38.525Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Calculadora.cs",
@@ -28,20 +49,20 @@
               "RelativeDocumentMoniker": "DemoBiblioteca\\Calculadora.cs",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoBiblioteca\\Calculadora.cs",
               "RelativeToolTip": "DemoBiblioteca\\Calculadora.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T23:50:37.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
               "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Program.cs",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
               "RelativeToolTip": "DemoConsolaAvanzado\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T13:34:07.612Z",
               "EditorCaption": ""

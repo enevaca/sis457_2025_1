@@ -1,0 +1,10 @@
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\bin\Debug\CpMinerva.exe.config
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\bin\Debug\CpMinerva.exe
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\bin\Debug\CpMinerva.pdb
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.AssemblyReference.cache
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.Properties.Resources.resources
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.GenerateResource.cache
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.CoreCompileInputs.cache
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.exe
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.pdb
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.Form1.resources

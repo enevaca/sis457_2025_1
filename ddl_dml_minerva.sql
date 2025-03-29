@@ -96,4 +96,42 @@ ALTER TABLE CompraDetalle ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER
 ALTER TABLE CompraDetalle ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
 ALTER TABLE CompraDetalle ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1:Eliminado, 0: Inactivo, 1: Activo
 
+GO
+ALTER PROC paProductoListar @parametro VARCHAR(100)
+AS
+  SELECT * FROM Producto
+  WHERE estado<>-1 AND codigo+descripcion+unidadMedida LIKE '%'+REPLACE(@parametro,' ','%')+'%'
+  ORDER BY estado DESC, descripcion ASC;
+GO
+ALTER PROC paEmpleadoListar @parametro VARCHAR(100)
+AS
+  SELECT e.*, u.usuario 
+  FROM Empleado e
+  LEFT JOIN Usuario u ON e.id = u.idEmpleado
+  WHERE e.estado<>-1 AND e.cedulaIdentidad+e.nombres+e.primerApellido+e.segundoApellido LIKE '%'+REPLACE(@parametro,' ','%')+'%'
+  ORDER BY e.estado DESC, e.nombres ASC, e.primerApellido ASC;
 
+EXEC paProductoListar 'bond carta';
+EXEC paEmpleadoListar 'juan';
+
+-- DML
+INSERT INTO Producto(codigo,descripcion,unidadMedida,saldo,precioVenta)
+VALUES ('PL0254', 'Bolígrafo Pilot Color Azul', 'Caja', 0, 36);
+
+INSERT INTO Producto(codigo,descripcion,unidadMedida,saldo,precioVenta)
+VALUES ('HB7985', 'Papel Bond Tamaño Carta', 'Paquete', 0, 30);
+
+INSERT INTO Producto(codigo,descripcion,unidadMedida,saldo,precioVenta)
+VALUES ('HB7986', 'Papel Bond Tamaño Oficio', 'Paquete', 0, 33);
+
+UPDATE Producto SET precioVenta=34 WHERE codigo='HB7986';
+UPDATE Producto SET estado=-1 WHERE codigo='HB7986';
+
+INSERT INTO Empleado(cedulaIdentidad, nombres, primerApellido, segundoApellido, direccion, celular, cargo)
+VALUES ('1234567', 'Juan', 'Pérez', 'López', 'Calle Loa N° 50', 71717171, 'Cajero');
+
+INSERT INTO Usuario(idEmpleado, usuario, clave)
+VALUES (1, 'jperez', '');
+
+SELECT * FROM Producto;
+SELECT * FROM Usuario;

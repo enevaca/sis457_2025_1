@@ -1,0 +1,15 @@
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\ClnMinerva.dll.config
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\ClnMinerva.dll
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\ClnMinerva.pdb
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\CadMinerva.dll
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\EntityFramework.dll
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\EntityFramework.SqlServer.dll
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\CadMinerva.pdb
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\CadMinerva.dll.config
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\EntityFramework.xml
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\bin\Debug\EntityFramework.SqlServer.xml
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\obj\Debug\ClnMinerva.csproj.AssemblyReference.cache
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\obj\Debug\ClnMinerva.csproj.CoreCompileInputs.cache
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\obj\Debug\ClnMinerva.csproj.Up2Date
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\obj\Debug\ClnMinerva.dll
+D:\usfx\SIS457\sis457_2025_1\Minerva\ClnMinerva\obj\Debug\ClnMinerva.pdb

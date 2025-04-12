@@ -1,4 +1,5 @@
-﻿using ClnMinerva;
+﻿using CadMinerva;
+using ClnMinerva;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,7 @@ namespace CpMinerva
 {
     public partial class FrmProducto : Form
     {
+        private bool esNuevo = false;
         public FrmProducto()
         {
             InitializeComponent();
@@ -47,6 +49,14 @@ namespace CpMinerva
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
+            esNuevo = true;
+            Size = new Size(835, 487);
+            txtCodigo.Focus();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            esNuevo = false;
             Size = new Size(835, 487);
         }
 
@@ -63,6 +73,75 @@ namespace CpMinerva
         private void txtParametro_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter) listar();
+        }
+
+        private bool validar()
+        {
+            bool esValido = true;
+            erpCodigo.SetError(txtCodigo, "");
+            erpDescripcion.SetError(txtDescripcion, "");
+            erpUnidadMedida.SetError(cbxUnidadMedida, "");
+            erpPrecioVenta.SetError(nudPrecioVenta, "");
+            erpSaldo.SetError(nudSaldo, "");
+
+            if (string.IsNullOrEmpty(txtCodigo.Text))
+            {
+                erpCodigo.SetError(txtCodigo, "El campo Código es obligatorio");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(txtDescripcion.Text))
+            {
+                erpDescripcion.SetError(txtDescripcion, "El campo Descripción es obligatorio");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(cbxUnidadMedida.Text))
+            {
+                erpUnidadMedida.SetError(cbxUnidadMedida, "El campo Unidad de Medida es obligatorio");
+                esValido = false;
+            }
+            if (nudPrecioVenta.Value < 0)
+            {
+                erpPrecioVenta.SetError(nudPrecioVenta, "El campo Precio de Venta no puede ser menor a 0");
+                esValido = false;
+            }
+            if (nudSaldo.Value < 0)
+            {
+                erpSaldo.SetError(nudSaldo, "El campo Saldo no puede ser menor a 0");
+                esValido = false;
+            }
+
+            return esValido;
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            if (validar())
+            {
+                var producto = new Producto();
+                producto.codigo = txtCodigo.Text.Trim();
+                producto.descripcion = txtDescripcion.Text.Trim();
+                producto.unidadMedida = cbxUnidadMedida.Text;
+                producto.precioVenta = nudPrecioVenta.Value;
+                producto.saldo = nudSaldo.Value;
+                producto.usuarioRegistro = "admin";
+
+                if (esNuevo)
+                {
+                    producto.fechaRegistro = DateTime.Now;
+                    producto.estado = 1;
+                    ProductoCln.insertar(producto);
+                }
+                else
+                {
+                    int index = dgvLista.CurrentCell.RowIndex;
+                    producto.id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
+                    ProductoCln.actualizar(producto);
+                }
+                listar();
+                btnCancelar.PerformClick();
+                MessageBox.Show("Producto guardado correctamente", "::: Minerva - Mensaje :::",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

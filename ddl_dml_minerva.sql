@@ -133,5 +133,7 @@ VALUES ('1234567', 'Juan', 'Pérez', 'López', 'Calle Loa N° 50', 71717171, 'Ca
 INSERT INTO Usuario(idEmpleado, usuario, clave)
 VALUES (1, 'jperez', '');
 
+UPDATE Usuario SET clave='i0hcoO/nssY6WOs9pOp5Xw==' WHERE id=1;
+
 SELECT * FROM Producto;
 SELECT * FROM Usuario;

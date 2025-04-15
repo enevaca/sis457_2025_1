@@ -34,6 +34,8 @@ namespace CpMinerva
             dgvLista.Columns["usuarioRegistro"].HeaderText = "Usuario Registro";
             dgvLista.Columns["fechaRegistro"].HeaderText = "Fecha Registro";
             if (lista.Count > 0) dgvLista.CurrentCell = dgvLista.Rows[0].Cells["codigo"];
+            btnEditar.Enabled = lista.Count > 0;
+            btnEliminar.Enabled = lista.Count > 0;
         }
 
         private void FrmProducto_Load(object sender, EventArgs e)
@@ -42,9 +44,19 @@ namespace CpMinerva
             listar();
         }
 
+        private void limpiar()
+        {
+            txtCodigo.Clear();
+            txtDescripcion.Clear();
+            cbxUnidadMedida.SelectedIndex = -1;
+            nudPrecioVenta.Value = 0;
+            nudSaldo.Value = 0;
+        }
+
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Size = new Size(835, 362);
+            limpiar();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -58,6 +70,16 @@ namespace CpMinerva
         {
             esNuevo = false;
             Size = new Size(835, 487);
+
+            int index = dgvLista.CurrentCell.RowIndex;
+            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
+            var producto = ProductoCln.obtenerUno(id);
+            txtCodigo.Text = producto.codigo;
+            txtDescripcion.Text = producto.descripcion;
+            cbxUnidadMedida.Text = producto.unidadMedida;
+            nudPrecioVenta.Value = producto.precioVenta;
+            nudSaldo.Value = producto.saldo;
+            txtCodigo.Focus();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -140,6 +162,22 @@ namespace CpMinerva
                 listar();
                 btnCancelar.PerformClick();
                 MessageBox.Show("Producto guardado correctamente", "::: Minerva - Mensaje :::",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            int index = dgvLista.CurrentCell.RowIndex;
+            int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
+            string codigo = dgvLista.Rows[index].Cells["codigo"].Value.ToString();
+            DialogResult dialog = MessageBox.Show($"¿Está seguro de eliminar el producto {codigo}?",
+                "::: Minerva - Mensaje :::", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog == DialogResult.Yes)
+            {
+                ProductoCln.eliminar(id, "admin");
+                listar();
+                MessageBox.Show("Producto dado de baja correctamente", "::: Minerva - Mensaje :::",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }

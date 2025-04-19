@@ -55,7 +55,8 @@ namespace CpMinerva
                     txtClave.Clear();
                     txtUsuario.Focus();
                     txtUsuario.SelectAll();
-                    new FrmPrincipal().ShowDialog();
+                    Hide();
+                    new FrmPrincipal(this).ShowDialog();
                 }
                 else 
                 {

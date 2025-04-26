@@ -26,3 +26,4 @@ D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\bin\Debug\C1.Win.Ribbon.4.5.2.dll
 D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\bin\Debug\C1.Win.4.5.2.xml
 D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\bin\Debug\C1.Win.Ribbon.4.5.2.xml
 D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.exe.licenses
+D:\usfx\SIS457\sis457_2025_1\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmEmpleado.resources

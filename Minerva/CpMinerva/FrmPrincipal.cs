@@ -28,5 +28,10 @@ namespace CpMinerva
         {
             frmAutenticacion.Show();
         }
+
+        private void btnAdEmpleados_Click(object sender, EventArgs e)
+        {
+            new FrmEmpleado().ShowDialog();
+        }
     }
 }

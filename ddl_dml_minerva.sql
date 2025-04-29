@@ -105,14 +105,15 @@ AS
 GO
 ALTER PROC paEmpleadoListar @parametro VARCHAR(100)
 AS
-  SELECT e.*, u.usuario 
+  SELECT ISNULL(u.usuario,'--') AS usuario,e.* 
   FROM Empleado e
   LEFT JOIN Usuario u ON e.id = u.idEmpleado
-  WHERE e.estado<>-1 AND e.cedulaIdentidad+e.nombres+e.primerApellido+e.segundoApellido LIKE '%'+REPLACE(@parametro,' ','%')+'%'
+  WHERE e.estado<>-1 
+	AND e.cedulaIdentidad+e.nombres+ISNULL(e.primerApellido,'')+ISNULL(e.segundoApellido,'') LIKE '%'+REPLACE(@parametro,' ','%')+'%'
   ORDER BY e.estado DESC, e.nombres ASC, e.primerApellido ASC;
 
 EXEC paProductoListar 'bond carta';
-EXEC paEmpleadoListar 'juan';
+EXEC paEmpleadoListar '';
 
 -- DML
 INSERT INTO Producto(codigo,descripcion,unidadMedida,saldo,precioVenta)

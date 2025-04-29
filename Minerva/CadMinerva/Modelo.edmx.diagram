@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="e948827bf36b40d5aa9c4ae686f6a302" Name="Diagram1">
+      <Diagram DiagramId="1115146efbe54b9fb8ca9f641a4604b7" Name="Diagram1">
         <EntityTypeShape EntityType="MinervaModel.Compra" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="MinervaModel.CompraDetalle" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="MinervaModel.Empleado" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />

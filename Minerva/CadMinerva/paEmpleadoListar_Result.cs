@@ -13,6 +13,7 @@ namespace CadMinerva
     
     public partial class paEmpleadoListar_Result
     {
+        public string usuario { get; set; }
         public int id { get; set; }
         public string cedulaIdentidad { get; set; }
         public string nombres { get; set; }
@@ -24,6 +25,5 @@ namespace CadMinerva
         public string usuarioRegistro { get; set; }
         public System.DateTime fechaRegistro { get; set; }
         public short estado { get; set; }
-        public string usuario { get; set; }
     }
 }

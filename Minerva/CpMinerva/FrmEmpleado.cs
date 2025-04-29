@@ -45,6 +45,10 @@ namespace CpMinerva
         {
             Size = new Size(835, 362);
             listar();
+            txtCelular.KeyPress += Util.onlyNumbers;
+            txtNombres.KeyPress += Util.onlyLetters;
+            txtPrimerApellido.KeyPress += Util.onlyLetters;
+            txtSegundoApellido.KeyPress += Util.onlyLetters;
         }
 
         private void limpiar()
@@ -80,14 +84,14 @@ namespace CpMinerva
             int index = dgvLista.CurrentCell.RowIndex;
             int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
             var empleado = EmpleadoCln.obtenerUno(id);
-            var usuario = empleado.Usuario.First();
+            var usuario = empleado.Usuario.Count > 0 ? empleado.Usuario.First().usuario1 : "";
             txtCedulaIdentidad.Text = empleado.cedulaIdentidad;
             txtNombres.Text = empleado.nombres;
             txtPrimerApellido.Text = empleado.primerApellido;
             txtSegundoApellido.Text = empleado.segundoApellido;
             txtDireccion.Text = empleado.direccion;
             txtCelular.Text = empleado.celular.ToString();
-            txtUsuario.Text = usuario != null ? usuario.usuario1 : "";
+            txtUsuario.Text = usuario;
             cbxCargo.Text = empleado.cargo;
             txtCedulaIdentidad.Focus();
         }
@@ -184,7 +188,7 @@ namespace CpMinerva
                 {
                     int index = dgvLista.CurrentCell.RowIndex;
                     empleado.id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
-                    EmpleadoCln.actualizar(empleado, txtUsuario.Text.Trim());
+                    EmpleadoCln.actualizar(empleado, txtUsuario.Text.Trim(), Util.Encrypt("hola123"));
                 }
                 listar();
                 btnCancelar.PerformClick();

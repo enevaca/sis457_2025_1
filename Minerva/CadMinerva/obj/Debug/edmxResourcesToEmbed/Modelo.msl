@@ -92,6 +92,7 @@
     <FunctionImportMapping FunctionImportName="paEmpleadoListar" FunctionName="MinervaModel.Store.paEmpleadoListar">
       <ResultMapping>
         <ComplexTypeMapping TypeName="MinervaModel.paEmpleadoListar_Result">
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="cedulaIdentidad" ColumnName="cedulaIdentidad" />
           <ScalarProperty Name="nombres" ColumnName="nombres" />
@@ -103,7 +104,6 @@
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
           <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
           <ScalarProperty Name="estado" ColumnName="estado" />
-          <ScalarProperty Name="usuario" ColumnName="usuario" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

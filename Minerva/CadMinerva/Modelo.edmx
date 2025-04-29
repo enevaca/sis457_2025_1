@@ -339,6 +339,7 @@
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="paEmpleadoListar_Result">
+          <Property Type="String" Name="usuario" Nullable="false" MaxLength="20" />
           <Property Type="Int32" Name="id" Nullable="false" />
           <Property Type="String" Name="cedulaIdentidad" Nullable="false" MaxLength="12" />
           <Property Type="String" Name="nombres" Nullable="false" MaxLength="30" />
@@ -350,7 +351,6 @@
           <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
           <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
           <Property Type="Int16" Name="estado" Nullable="false" />
-          <Property Type="String" Name="usuario" Nullable="true" MaxLength="20" />
         </ComplexType>
         <ComplexType Name="paProductoListar_Result">
           <Property Type="Int32" Name="id" Nullable="false" />
@@ -460,6 +460,7 @@
           <FunctionImportMapping FunctionImportName="paEmpleadoListar" FunctionName="MinervaModel.Store.paEmpleadoListar">
             <ResultMapping>
               <ComplexTypeMapping TypeName="MinervaModel.paEmpleadoListar_Result">
+                <ScalarProperty Name="usuario" ColumnName="usuario" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="cedulaIdentidad" ColumnName="cedulaIdentidad" />
                 <ScalarProperty Name="nombres" ColumnName="nombres" />
@@ -471,7 +472,6 @@
                 <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
                 <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
                 <ScalarProperty Name="estado" ColumnName="estado" />
-                <ScalarProperty Name="usuario" ColumnName="usuario" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

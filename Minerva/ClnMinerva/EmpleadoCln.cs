@@ -1,6 +1,7 @@
 ﻿using CadMinerva;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +30,7 @@ namespace ClnMinerva
             }
         }
 
-        public static int actualizar(Empleado empleado, string nombreUsuario)
+        public static int actualizar(Empleado empleado, string nombreUsuario, string clave)
         {
             using (var context = new MinervaEntities())
             {
@@ -52,14 +53,15 @@ namespace ClnMinerva
                         usuario.usuarioRegistro = empleado.usuarioRegistro;
                         UsuarioCln.actualizar(usuario);
                     }
-                    else 
+                    else
                     {
                         usuario = new Usuario
                         {
                             idEmpleado = existente.id,
                             usuario1 = nombreUsuario,
+                            clave = clave,
                             estado = 1,
-                            fechaRegistro = empleado.fechaRegistro,
+                            fechaRegistro = DateTime.Now,
                             usuarioRegistro = empleado.usuarioRegistro
                         };
                         UsuarioCln.insertar(usuario);
@@ -92,9 +94,7 @@ namespace ClnMinerva
         {
             using (var context = new MinervaEntities())
             {
-                var empleado = context.Empleado.Find(id);
-                empleado.Usuario = new List<Usuario>() { UsuarioCln.obtenerUnoPorEmpleado(empleado.id) };
-                return empleado;
+                return context.Empleado.Include(x => x.Usuario).Where(x => x.id == id).FirstOrDefault();
             }
         }
 

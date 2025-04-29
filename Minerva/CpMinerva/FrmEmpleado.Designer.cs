@@ -39,6 +39,17 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.gbxDatos = new System.Windows.Forms.GroupBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.lblCargo = new System.Windows.Forms.Label();
+            this.txtCelular = new System.Windows.Forms.TextBox();
+            this.lblCelular = new System.Windows.Forms.Label();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.cbxCargo = new System.Windows.Forms.ComboBox();
+            this.lblDireccion = new System.Windows.Forms.Label();
+            this.lblSegundoApellido = new System.Windows.Forms.Label();
+            this.txtSegundoApellido = new System.Windows.Forms.TextBox();
+            this.txtPrimerApellido = new System.Windows.Forms.TextBox();
             this.lblPrimerApellido = new System.Windows.Forms.Label();
             this.txtNombres = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
@@ -54,17 +65,6 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.cbxCargo = new System.Windows.Forms.ComboBox();
-            this.txtPrimerApellido = new System.Windows.Forms.TextBox();
-            this.txtSegundoApellido = new System.Windows.Forms.TextBox();
-            this.lblSegundoApellido = new System.Windows.Forms.Label();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.lblCargo = new System.Windows.Forms.Label();
-            this.txtCelular = new System.Windows.Forms.TextBox();
-            this.lblCelular = new System.Windows.Forms.Label();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.lblDireccion = new System.Windows.Forms.Label();
             this.erpCargo = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.erpCedulaIdentidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombres)).BeginInit();
@@ -167,6 +167,106 @@
             this.gbxDatos.TabStop = false;
             this.gbxDatos.Text = "Datos";
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Location = new System.Drawing.Point(324, 92);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(57, 16);
+            this.lblUsuario.TabIndex = 22;
+            this.lblUsuario.Text = "Usuario:";
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Location = new System.Drawing.Point(387, 89);
+            this.txtUsuario.MaxLength = 15;
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(147, 22);
+            this.txtUsuario.TabIndex = 8;
+            // 
+            // lblCargo
+            // 
+            this.lblCargo.AutoSize = true;
+            this.lblCargo.Location = new System.Drawing.Point(334, 67);
+            this.lblCargo.Name = "lblCargo";
+            this.lblCargo.Size = new System.Drawing.Size(47, 16);
+            this.lblCargo.TabIndex = 19;
+            this.lblCargo.Text = "Cargo:";
+            // 
+            // txtCelular
+            // 
+            this.txtCelular.Location = new System.Drawing.Point(387, 39);
+            this.txtCelular.MaxLength = 8;
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(147, 22);
+            this.txtCelular.TabIndex = 6;
+            // 
+            // lblCelular
+            // 
+            this.lblCelular.AutoSize = true;
+            this.lblCelular.Location = new System.Drawing.Point(329, 42);
+            this.lblCelular.Name = "lblCelular";
+            this.lblCelular.Size = new System.Drawing.Size(52, 16);
+            this.lblCelular.TabIndex = 17;
+            this.lblCelular.Text = "Celular:";
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.Location = new System.Drawing.Point(387, 13);
+            this.txtDireccion.MaxLength = 200;
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(396, 22);
+            this.txtDireccion.TabIndex = 5;
+            // 
+            // cbxCargo
+            // 
+            this.cbxCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxCargo.FormattingEnabled = true;
+            this.cbxCargo.Items.AddRange(new object[] {
+            "Administrador",
+            "Cajero",
+            "Gerente",
+            "Portero",
+            "Seguridad"});
+            this.cbxCargo.Location = new System.Drawing.Point(387, 62);
+            this.cbxCargo.Name = "cbxCargo";
+            this.cbxCargo.Size = new System.Drawing.Size(147, 24);
+            this.cbxCargo.TabIndex = 7;
+            // 
+            // lblDireccion
+            // 
+            this.lblDireccion.AutoSize = true;
+            this.lblDireccion.Location = new System.Drawing.Point(314, 16);
+            this.lblDireccion.Name = "lblDireccion";
+            this.lblDireccion.Size = new System.Drawing.Size(67, 16);
+            this.lblDireccion.TabIndex = 15;
+            this.lblDireccion.Text = "Dirección:";
+            // 
+            // lblSegundoApellido
+            // 
+            this.lblSegundoApellido.AutoSize = true;
+            this.lblSegundoApellido.Location = new System.Drawing.Point(22, 92);
+            this.lblSegundoApellido.Name = "lblSegundoApellido";
+            this.lblSegundoApellido.Size = new System.Drawing.Size(115, 16);
+            this.lblSegundoApellido.TabIndex = 14;
+            this.lblSegundoApellido.Text = "SegundoApellido:";
+            // 
+            // txtSegundoApellido
+            // 
+            this.txtSegundoApellido.Location = new System.Drawing.Point(143, 89);
+            this.txtSegundoApellido.MaxLength = 30;
+            this.txtSegundoApellido.Name = "txtSegundoApellido";
+            this.txtSegundoApellido.Size = new System.Drawing.Size(148, 22);
+            this.txtSegundoApellido.TabIndex = 4;
+            // 
+            // txtPrimerApellido
+            // 
+            this.txtPrimerApellido.Location = new System.Drawing.Point(143, 64);
+            this.txtPrimerApellido.MaxLength = 30;
+            this.txtPrimerApellido.Name = "txtPrimerApellido";
+            this.txtPrimerApellido.Size = new System.Drawing.Size(148, 22);
+            this.txtPrimerApellido.TabIndex = 3;
+            // 
             // lblPrimerApellido
             // 
             this.lblPrimerApellido.AutoSize = true;
@@ -179,10 +279,10 @@
             // txtNombres
             // 
             this.txtNombres.Location = new System.Drawing.Point(143, 39);
-            this.txtNombres.MaxLength = 250;
+            this.txtNombres.MaxLength = 30;
             this.txtNombres.Name = "txtNombres";
             this.txtNombres.Size = new System.Drawing.Size(148, 22);
-            this.txtNombres.TabIndex = 3;
+            this.txtNombres.TabIndex = 2;
             // 
             // lblNombre
             // 
@@ -197,7 +297,7 @@
             // 
             this.txtCedulaIdentidad.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtCedulaIdentidad.Location = new System.Drawing.Point(143, 13);
-            this.txtCedulaIdentidad.MaxLength = 20;
+            this.txtCedulaIdentidad.MaxLength = 12;
             this.txtCedulaIdentidad.Name = "txtCedulaIdentidad";
             this.txtCedulaIdentidad.Size = new System.Drawing.Size(148, 22);
             this.txtCedulaIdentidad.TabIndex = 1;
@@ -329,107 +429,6 @@
             this.btnEditar.UseVisualStyleBackColor = true;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
-            // cbxCargo
-            // 
-            this.cbxCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxCargo.FormattingEnabled = true;
-            this.cbxCargo.Items.AddRange(new object[] {
-            "Administrador",
-            "Cajero",
-            "Gerente",
-            "Portero",
-            "Seguridad"});
-            this.cbxCargo.Location = new System.Drawing.Point(387, 62);
-            this.cbxCargo.Name = "cbxCargo";
-            this.cbxCargo.Size = new System.Drawing.Size(147, 24);
-            this.cbxCargo.TabIndex = 5;
-            // 
-            // txtPrimerApellido
-            // 
-            this.txtPrimerApellido.Location = new System.Drawing.Point(143, 64);
-            this.txtPrimerApellido.MaxLength = 250;
-            this.txtPrimerApellido.Name = "txtPrimerApellido";
-            this.txtPrimerApellido.Size = new System.Drawing.Size(148, 22);
-            this.txtPrimerApellido.TabIndex = 12;
-            // 
-            // txtSegundoApellido
-            // 
-            this.txtSegundoApellido.Location = new System.Drawing.Point(143, 89);
-            this.txtSegundoApellido.MaxLength = 250;
-            this.txtSegundoApellido.Name = "txtSegundoApellido";
-            this.txtSegundoApellido.Size = new System.Drawing.Size(148, 22);
-            this.txtSegundoApellido.TabIndex = 13;
-            // 
-            // lblSegundoApellido
-            // 
-            this.lblSegundoApellido.AutoSize = true;
-            this.lblSegundoApellido.Location = new System.Drawing.Point(22, 92);
-            this.lblSegundoApellido.Name = "lblSegundoApellido";
-            this.lblSegundoApellido.Size = new System.Drawing.Size(115, 16);
-            this.lblSegundoApellido.TabIndex = 14;
-            this.lblSegundoApellido.Text = "SegundoApellido:";
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(324, 92);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(57, 16);
-            this.lblUsuario.TabIndex = 22;
-            this.lblUsuario.Text = "Usuario:";
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(387, 89);
-            this.txtUsuario.MaxLength = 250;
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(147, 22);
-            this.txtUsuario.TabIndex = 21;
-            // 
-            // lblCargo
-            // 
-            this.lblCargo.AutoSize = true;
-            this.lblCargo.Location = new System.Drawing.Point(334, 67);
-            this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(47, 16);
-            this.lblCargo.TabIndex = 19;
-            this.lblCargo.Text = "Cargo:";
-            // 
-            // txtCelular
-            // 
-            this.txtCelular.Location = new System.Drawing.Point(387, 39);
-            this.txtCelular.MaxLength = 250;
-            this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(147, 22);
-            this.txtCelular.TabIndex = 18;
-            // 
-            // lblCelular
-            // 
-            this.lblCelular.AutoSize = true;
-            this.lblCelular.Location = new System.Drawing.Point(329, 42);
-            this.lblCelular.Name = "lblCelular";
-            this.lblCelular.Size = new System.Drawing.Size(52, 16);
-            this.lblCelular.TabIndex = 17;
-            this.lblCelular.Text = "Celular:";
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtDireccion.Location = new System.Drawing.Point(387, 13);
-            this.txtDireccion.MaxLength = 20;
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(396, 22);
-            this.txtDireccion.TabIndex = 16;
-            // 
-            // lblDireccion
-            // 
-            this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(314, 16);
-            this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(67, 16);
-            this.lblDireccion.TabIndex = 15;
-            this.lblDireccion.Text = "Dirección:";
-            // 
             // erpCargo
             // 
             this.erpCargo.ContainerControl = this;
@@ -449,7 +448,7 @@
             this.Controls.Add(this.pnlAcciones);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmEmpleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

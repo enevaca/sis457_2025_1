@@ -1,70 +1,53 @@
 ﻿@model WebMinerva.Models.Producto
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Eliminar Producto";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Delete</h1>
+<h1>Eliminar Producto</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>¿Esta seguro que desea dar de baja este elemento?</h3>
 <div>
-    <h4>Producto</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Codigo)
-        </dt>
+        <dt class = "col-sm-2">Código</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Codigo)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
+        <dt class = "col-sm-2">Descripción</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Descripcion)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UnidadMedida)
-        </dt>
+        <dt class = "col-sm-2">Unidad de Medida</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.UnidadMedida)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Saldo)
-        </dt>
+        <dt class = "col-sm-2">Saldo</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Saldo)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PrecioVenta)
-        </dt>
+        <dt class = "col-sm-2">Precio de Venta</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PrecioVenta)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UsuarioRegistro)
-        </dt>
+        <dt class = "col-sm-2">Usuario Registro</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.UsuarioRegistro)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaRegistro)
-        </dt>
+        <dt class = "col-sm-2">Fecha Registro</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FechaRegistro)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
+        <dt class = "col-sm-2">Estado</dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
+            @(Model.Estado == 1 ? "Activo" : "Inactivo")
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Eliminar</button> |
+        <a asp-action="Index"><i class="fa-solid fa-arrow-left"></i>Volver a la Lista</a>
     </form>
 </div>

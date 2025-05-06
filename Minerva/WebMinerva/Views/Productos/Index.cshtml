@@ -1,78 +1,63 @@
 ﻿@model IEnumerable<WebMinerva.Models.Producto>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Productos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Productos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create"><i class="fa-solid fa-plus"></i> Crear Nuevo</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Codigo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UnidadMedida)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Saldo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PrecioVenta)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UsuarioRegistro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FechaRegistro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Estado)
-            </th>
+            <th>Código</th>
+            <th>Descripción</th>
+            <th>Unidad de Medida</th>
+            <th>Saldo</th>
+            <th>Precio de Venta</th>
+            <th>Usuario Registro</th>
+            <th>Fecha Registro</th>
+            <th>Estado</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Codigo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UnidadMedida)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Saldo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PrecioVenta)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UsuarioRegistro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaRegistro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Estado)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Codigo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnidadMedida)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Saldo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrecioVenta)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsuarioRegistro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaRegistro)
+                </td>
+                <td>
+                    @(item.Estado == 1 ? "Activo" : "Inactivo")
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id"><i class="fa-solid fa-eye"></i></a> |
+                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen-to-square"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash"></i></a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

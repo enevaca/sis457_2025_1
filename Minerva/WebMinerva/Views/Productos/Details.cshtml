@@ -1,67 +1,50 @@
 ﻿@model WebMinerva.Models.Producto
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalle de Producto";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Detalle de Producto</h1>
 
 <div>
-    <h4>Producto</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Codigo)
-        </dt>
-        <dd class = "col-sm-10">
+        <dt class="col-sm-2">Código</dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Codigo)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
-        <dd class = "col-sm-10">
+        <dt class="col-sm-2">Descripción</dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Descripcion)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UnidadMedida)
-        </dt>
-        <dd class = "col-sm-10">
+        <dt class="col-sm-2">Unidad de Medida</dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.UnidadMedida)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Saldo)
-        </dt>
-        <dd class = "col-sm-10">
+        <dt class="col-sm-2">Saldo</dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Saldo)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PrecioVenta)
-        </dt>
-        <dd class = "col-sm-10">
+        <dt class="col-sm-2">Precio de Venta</dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.PrecioVenta)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UsuarioRegistro)
-        </dt>
-        <dd class = "col-sm-10">
+        <dt class="col-sm-2">Usuario Registro</dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.UsuarioRegistro)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaRegistro)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FechaRegistro)
+        <dt class="col-sm-2">Fecha Registro</dt>
+        <dd class="col-sm-10">
+            @(Model.FechaRegistro.ToLongDateString() + " " + Model.FechaRegistro.ToShortTimeString())
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
+        <dt class="col-sm-2">Estado</dt>
+        <dd class="col-sm-10">
+            @(Model.Estado == 1 ? "Activo" : "Inactivo")
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id"><i class="fa-solid fa-pen-to-square"></i>Editar</a> |
+    <a asp-action="Index"><i class="fa-solid fa-arrow-left"></i>Volver a la Lista</a>
 </div>

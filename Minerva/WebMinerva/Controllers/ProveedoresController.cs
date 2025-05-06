@@ -9,23 +9,22 @@ using WebMinerva.Models;
 
 namespace WebMinerva.Controllers
 {
-    public class ProductosController : Controller
+    public class ProveedoresController : Controller
     {
         private readonly MinervaContext _context;
 
-        public ProductosController(MinervaContext context)
+        public ProveedoresController(MinervaContext context)
         {
             _context = context;
         }
 
-        // GET: Productos
+        // GET: Proveedores
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Productos.Where(x => x.Estado != -1)
-                .OrderBy(x => x.Descripcion).ToListAsync());
+            return View(await _context.Proveedors.ToListAsync());
         }
 
-        // GET: Productos/Details/5
+        // GET: Proveedores/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,43 +32,39 @@ namespace WebMinerva.Controllers
                 return NotFound();
             }
 
-            var producto = await _context.Productos
+            var proveedor = await _context.Proveedors
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
+            if (proveedor == null)
             {
                 return NotFound();
             }
 
-            return View(producto);
+            return View(proveedor);
         }
 
-        // GET: Productos/Create
+        // GET: Proveedores/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Productos/Create
+        // POST: Proveedores/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,Nit,RazonSocial,Direccion,Telefono,Representante,UsuarioRegistro,FechaRegistro,Estado")] Proveedor proveedor)
         {
-            if (!string.IsNullOrEmpty(producto.Codigo) && !string.IsNullOrEmpty(producto.Descripcion)
-                && !string.IsNullOrEmpty(producto.UnidadMedida))
+            if (ModelState.IsValid)
             {
-                producto.UsuarioRegistro = "admin";
-                producto.FechaRegistro = DateTime.Now;
-                producto.Estado = 1;
-                _context.Add(producto);
+                _context.Add(proveedor);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(producto);
+            return View(proveedor);
         }
 
-        // GET: Productos/Edit/5
+        // GET: Proveedores/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -77,22 +72,22 @@ namespace WebMinerva.Controllers
                 return NotFound();
             }
 
-            var producto = await _context.Productos.FindAsync(id);
-            if (producto == null)
+            var proveedor = await _context.Proveedors.FindAsync(id);
+            if (proveedor == null)
             {
                 return NotFound();
             }
-            return View(producto);
+            return View(proveedor);
         }
 
-        // POST: Productos/Edit/5
+        // POST: Proveedores/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Codigo,Descripcion,UnidadMedida,Saldo,PrecioVenta,UsuarioRegistro,FechaRegistro,Estado")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nit,RazonSocial,Direccion,Telefono,Representante,UsuarioRegistro,FechaRegistro,Estado")] Proveedor proveedor)
         {
-            if (id != producto.Id)
+            if (id != proveedor.Id)
             {
                 return NotFound();
             }
@@ -101,12 +96,12 @@ namespace WebMinerva.Controllers
             {
                 try
                 {
-                    _context.Update(producto);
+                    _context.Update(proveedor);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductoExists(producto.Id))
+                    if (!ProveedorExists(proveedor.Id))
                     {
                         return NotFound();
                     }
@@ -117,10 +112,10 @@ namespace WebMinerva.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(producto);
+            return View(proveedor);
         }
 
-        // GET: Productos/Delete/5
+        // GET: Proveedores/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -128,36 +123,34 @@ namespace WebMinerva.Controllers
                 return NotFound();
             }
 
-            var producto = await _context.Productos
+            var proveedor = await _context.Proveedors
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
+            if (proveedor == null)
             {
                 return NotFound();
             }
 
-            return View(producto);
+            return View(proveedor);
         }
 
-        // POST: Productos/Delete/5
+        // POST: Proveedores/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var producto = await _context.Productos.FindAsync(id);
-            if (producto != null)
+            var proveedor = await _context.Proveedors.FindAsync(id);
+            if (proveedor != null)
             {
-                producto.Estado = -1;
-                producto.UsuarioRegistro = "admin";
-                //_context.Productos.Remove(producto);
+                _context.Proveedors.Remove(proveedor);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductoExists(int id)
+        private bool ProveedorExists(int id)
         {
-            return _context.Productos.Any(e => e.Id == id);
+            return _context.Proveedors.Any(e => e.Id == id);
         }
     }
 }

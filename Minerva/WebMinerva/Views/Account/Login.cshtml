@@ -1,0 +1,35 @@
+﻿@model LoginViewModel
+
+@{
+	ViewData["Title"] = "Login !";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Login</h1>
+
+<form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form">
+	<div class="font-weight-bold">Iniciar Sesión</div>
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+	<div class="form-group">
+		<label asp-for="usuario" class="control-label"></label>
+		<input asp-for="usuario" class="form-control" placeholder="Usuario" required />
+		<span asp-validation-for="usuario" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="clave" class="control-label"></label>
+		<input asp-for="clave" type="password" class="form-control" placeholder="Contraseña" required />
+		<span asp-validation-for="clave" class="text-danger"></span>
+	</div>
+	<div class="row" style="margin-top:50px;">
+		<div class="col-xs-7">
+			<input type="checkbox" name="recordarme" id="recordarme" />
+			<label for="recordarme">Recordarme</label>
+		</div>
+		<div class="col-xs-5">
+			<input type="submit" value="Iniciar Sesión" class="btn btn-primary" />
+		</div>
+	</div>
+	<div class="col-xs-12 text-center">
+		<a asp-controller="Account" asp-action="ResetPassword">¿Se te olvidó la contraseña?</a>
+	</div>
+</form>

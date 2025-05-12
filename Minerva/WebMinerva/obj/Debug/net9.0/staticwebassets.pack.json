@@ -5,12 +5,344 @@
       "PackagePath": "staticwebassets\\WebMinerva.uxh62tunvd.bundle.scp.css"
     },
     {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
+    },
+    {
       "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor.css"
+    },
+    {
       "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\banner-image-bg-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-image-bg-1.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\banner-image-bg-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-image-bg-2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\banner-image-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-image-bg.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\banner-image.png",
+      "PackagePath": "staticwebassets\\images\\banner-image.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\banner-image1.png",
+      "PackagePath": "staticwebassets\\images\\banner-image1.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\banner-image2.png",
+      "PackagePath": "staticwebassets\\images\\banner-image2.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\banner-image3.png",
+      "PackagePath": "staticwebassets\\images\\banner-image3.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\cart-item1.png",
+      "PackagePath": "staticwebassets\\images\\cart-item1.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\cart-item2.png",
+      "PackagePath": "staticwebassets\\images\\cart-item2.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\category1.jpg",
+      "PackagePath": "staticwebassets\\images\\category1.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\category2.jpg",
+      "PackagePath": "staticwebassets\\images\\category2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\category3.jpg",
+      "PackagePath": "staticwebassets\\images\\category3.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\category4.jpg",
+      "PackagePath": "staticwebassets\\images\\category4.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\commentor-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\commentor-item1.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\commentor-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\commentor-item2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\commentor-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\commentor-item3.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\dhl.png",
+      "PackagePath": "staticwebassets\\images\\dhl.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\insta-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-item1.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\insta-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-item2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\insta-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-item3.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\insta-item4.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-item4.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\insta-item5.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-item5.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\insta-item6.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-item6.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image1.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image10.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image10.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image11.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image11.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image12.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image12.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image3.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image3.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image4.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image4.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image5.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image5.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image6.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image6.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image7.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image7.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image8.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image8.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\item-image9.jpg",
+      "PackagePath": "staticwebassets\\images\\item-image9.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\main-logo.png",
+      "PackagePath": "staticwebassets\\images\\main-logo.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\mastercard.jpg",
+      "PackagePath": "staticwebassets\\images\\mastercard.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\paypal.jpg",
+      "PackagePath": "staticwebassets\\images\\paypal.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-img.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item1.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item10.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item10.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item3.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item4.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item4.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item5.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item5.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item6.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item6.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item7.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item7.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item8.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item8.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\post-item9.jpg",
+      "PackagePath": "staticwebassets\\images\\post-item9.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item1.png",
+      "PackagePath": "staticwebassets\\images\\product-item1.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item10.png",
+      "PackagePath": "staticwebassets\\images\\product-item10.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item11.png",
+      "PackagePath": "staticwebassets\\images\\product-item11.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item12.png",
+      "PackagePath": "staticwebassets\\images\\product-item12.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item2.png",
+      "PackagePath": "staticwebassets\\images\\product-item2.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item3.png",
+      "PackagePath": "staticwebassets\\images\\product-item3.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item4.png",
+      "PackagePath": "staticwebassets\\images\\product-item4.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item5.png",
+      "PackagePath": "staticwebassets\\images\\product-item5.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item6.png",
+      "PackagePath": "staticwebassets\\images\\product-item6.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item7.png",
+      "PackagePath": "staticwebassets\\images\\product-item7.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item8.png",
+      "PackagePath": "staticwebassets\\images\\product-item8.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-item9.png",
+      "PackagePath": "staticwebassets\\images\\product-item9.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-large-1.png",
+      "PackagePath": "staticwebassets\\images\\product-large-1.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-large-2.png",
+      "PackagePath": "staticwebassets\\images\\product-large-2.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-large-3.png",
+      "PackagePath": "staticwebassets\\images\\product-large-3.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-thumbnail-1.png",
+      "PackagePath": "staticwebassets\\images\\product-thumbnail-1.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-thumbnail-2.png",
+      "PackagePath": "staticwebassets\\images\\product-thumbnail-2.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\product-thumbnail-3.png",
+      "PackagePath": "staticwebassets\\images\\product-thumbnail-3.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\review-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\review-image1.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\review-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\review-image2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\shippingcard.png",
+      "PackagePath": "staticwebassets\\images\\shippingcard.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\single-image-about.jpg",
+      "PackagePath": "staticwebassets\\images\\single-image-about.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\single-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\single-image2.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\single-image2.png",
+      "PackagePath": "staticwebassets\\images\\single-image2.png"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\single-post.jpg",
+      "PackagePath": "staticwebassets\\images\\single-post.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\images\\visa.jpg",
+      "PackagePath": "staticwebassets\\images\\visa.jpg"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\js\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\js\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\wwwroot\\js\\site.js",

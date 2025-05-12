@@ -339,3 +339,8 @@ D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\bin\Debug\net9.0\ru\Microsoft.Co
 D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\obj\Debug\net9.0\compressed\0ot5xo17cp-432qqg1jcs.gz
+D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\obj\Debug\net9.0\compressed\pidh2b8nnk-6j4nx9tksi.gz
+D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\obj\Debug\net9.0\compressed\ziuti72es3-vk81rehhpd.gz
+D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\obj\Debug\net9.0\compressed\tsfdpj31pg-y8huxuxbtj.gz
+D:\usfx\SIS457\sis457_2025_1\Minerva\WebMinerva\obj\Debug\net9.0\compressed\6ig49z8ccw-wqijeiqp4n.gz

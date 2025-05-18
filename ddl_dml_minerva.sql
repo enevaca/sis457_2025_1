@@ -97,13 +97,13 @@ ALTER TABLE CompraDetalle ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
 ALTER TABLE CompraDetalle ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1:Eliminado, 0: Inactivo, 1: Activo
 
 GO
-ALTER PROC paProductoListar @parametro VARCHAR(100)
+CREATE PROC paProductoListar @parametro VARCHAR(100)
 AS
   SELECT * FROM Producto
   WHERE estado<>-1 AND codigo+descripcion+unidadMedida LIKE '%'+REPLACE(@parametro,' ','%')+'%'
   ORDER BY estado DESC, descripcion ASC;
 GO
-ALTER PROC paEmpleadoListar @parametro VARCHAR(100)
+CREATE PROC paEmpleadoListar @parametro VARCHAR(100)
 AS
   SELECT ISNULL(u.usuario,'--') AS usuario,e.* 
   FROM Empleado e

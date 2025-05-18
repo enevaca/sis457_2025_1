@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{006D1C48-A33D-43AD-8BE5-800CE0629441}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\webminerva\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{006D1C48-A33D-43AD-8BE5-800CE0629441}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{006D1C48-A33D-43AD-8BE5-800CE0629441}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\webminerva\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{006D1C48-A33D-43AD-8BE5-800CE0629441}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T14:51:42.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T14:39:13.139Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

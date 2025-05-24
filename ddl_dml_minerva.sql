@@ -20,14 +20,23 @@ DROP TABLE Usuario;
 DROP TABLE Empleado;
 DROP TABLE Proveedor;
 DROP TABLE Producto;
+DROP TABLE UnidadMedida;
+DROP PROC paProductoListar;
+DROP PROC paEmpleadoListar;
 
+CREATE TABLE UnidadMedida(
+  id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+  descripcion VARCHAR(20) NOT NULL UNIQUE
+);
 CREATE TABLE Producto (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+  idUnidadMedida INT NOT NULL,
   codigo VARCHAR(20) NOT NULL,
   descripcion VARCHAR(250) NOT NULL,
-  unidadMedida VARCHAR(20) NOT NULL,
+  --unidadMedida VARCHAR(20) NOT NULL,
   saldo DECIMAL NOT NULL DEFAULT 0,
-  precioVenta DECIMAL NOT NULL CHECK (precioVenta > 0)
+  precioVenta DECIMAL NOT NULL CHECK (precioVenta > 0),
+  CONSTRAINT fk_Producto_UnidadMedida FOREIGN KEY(idUnidadMedida) REFERENCES UnidadMedida(id)
 );
 CREATE TABLE Proveedor (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
@@ -72,6 +81,10 @@ CREATE TABLE CompraDetalle (
   CONSTRAINT fk_CompraDetalle_Producto FOREIGN KEY(idProducto) REFERENCES Producto(id)
 );
 
+ALTER TABLE UnidadMedida ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
+ALTER TABLE UnidadMedida ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
+ALTER TABLE UnidadMedida ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1:Eliminado, 0: Inactivo, 1: Activo
+
 ALTER TABLE Producto ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
 ALTER TABLE Producto ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
 ALTER TABLE Producto ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1:Eliminado, 0: Inactivo, 1: Activo
@@ -99,9 +112,12 @@ ALTER TABLE CompraDetalle ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1:Eliminad
 GO
 CREATE PROC paProductoListar @parametro VARCHAR(100)
 AS
-  SELECT * FROM Producto
-  WHERE estado<>-1 AND codigo+descripcion+unidadMedida LIKE '%'+REPLACE(@parametro,' ','%')+'%'
-  ORDER BY estado DESC, descripcion ASC;
+  SELECT p.id, p.codigo, p.descripcion, um.descripcion AS unidadMedida, p.saldo, p.precioVenta,
+		 p.usuarioRegistro, p.fechaRegistro, p.estado, p.idUnidadMedida
+  FROM Producto p
+  INNER JOIN UnidadMedida um ON um.id = p.idUnidadMedida
+  WHERE p.estado<>-1 AND p.codigo+p.descripcion+um.descripcion LIKE '%'+REPLACE(@parametro,' ','%')+'%'
+  ORDER BY p.estado DESC, p.descripcion ASC;
 GO
 CREATE PROC paEmpleadoListar @parametro VARCHAR(100)
 AS
@@ -116,14 +132,17 @@ EXEC paProductoListar 'bond carta';
 EXEC paEmpleadoListar '';
 
 -- DML
-INSERT INTO Producto(codigo,descripcion,unidadMedida,saldo,precioVenta)
-VALUES ('PL0254', 'Bolígrafo Pilot Color Azul', 'Caja', 0, 36);
+INSERT INTO UnidadMedida(descripcion)
+VALUES ('Caja'),('Docena'),('Metro'),('Paquete'),('Pliego'),('Unidad');
 
-INSERT INTO Producto(codigo,descripcion,unidadMedida,saldo,precioVenta)
-VALUES ('HB7985', 'Papel Bond Tamaño Carta', 'Paquete', 0, 30);
+INSERT INTO Producto(codigo,descripcion,idUnidadMedida,saldo,precioVenta)
+VALUES ('PL0254', 'Bolígrafo Pilot Color Azul', 1, 0, 36);
 
-INSERT INTO Producto(codigo,descripcion,unidadMedida,saldo,precioVenta)
-VALUES ('HB7986', 'Papel Bond Tamaño Oficio', 'Paquete', 0, 33);
+INSERT INTO Producto(codigo,descripcion,idUnidadMedida,saldo,precioVenta)
+VALUES ('HB7985', 'Papel Bond Tamaño Carta', 4, 0, 30);
+
+INSERT INTO Producto(codigo,descripcion,idUnidadMedida,saldo,precioVenta)
+VALUES ('HB7986', 'Papel Bond Tamaño Oficio', 4, 0, 33);
 
 UPDATE Producto SET precioVenta=34 WHERE codigo='HB7986';
 UPDATE Producto SET estado=-1 WHERE codigo='HB7986';

@@ -175,6 +175,7 @@
             this.btnCVVentas.IconSet.Add(new C1.Framework.C1BitmapIcon("OutlineSubtotals", new System.Drawing.Size(32, 32), System.Drawing.Color.Transparent, "Preset_LargeImages", 192));
             this.btnCVVentas.Name = "btnCVVentas";
             this.btnCVVentas.Text = "Ventas";
+            this.btnCVVentas.Click += new System.EventHandler(this.btnCVVentas_Click);
             // 
             // btnCVArqueoCaja
             // 

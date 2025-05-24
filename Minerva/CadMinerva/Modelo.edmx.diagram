@@ -4,17 +4,19 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1115146efbe54b9fb8ca9f641a4604b7" Name="Diagram1">
-        <EntityTypeShape EntityType="MinervaModel.Compra" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+      <Diagram DiagramId="f0c0bb2f15194222a46e262b4f486046" Name="Diagram1">
+        <EntityTypeShape EntityType="MinervaModel.Compra" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
         <EntityTypeShape EntityType="MinervaModel.CompraDetalle" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="MinervaModel.Empleado" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />
-        <EntityTypeShape EntityType="MinervaModel.Producto" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="MinervaModel.Proveedor" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinervaModel.Producto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinervaModel.Proveedor" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinervaModel.UnidadMedida" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
         <EntityTypeShape EntityType="MinervaModel.Usuario" Width="1.5" PointX="8" PointY="6.375" IsExpanded="true" />
         <AssociationConnector Association="MinervaModel.fk_Compra_Proveedor" ManuallyRouted="false" />
         <AssociationConnector Association="MinervaModel.fk_CompraDetalle_Compra" ManuallyRouted="false" />
         <AssociationConnector Association="MinervaModel.fk_CompraDetalle_Producto" ManuallyRouted="false" />
         <AssociationConnector Association="MinervaModel.fk_Usuario_Empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="MinervaModel.fk_Producto_UnidadMedida" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

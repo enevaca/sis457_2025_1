@@ -25,6 +25,7 @@ namespace CpMinerva
             var lista = ProductoCln.listarPa(txtParametro.Text.Trim());
             dgvLista.DataSource = lista;
             dgvLista.Columns["id"].Visible = false;
+            dgvLista.Columns["idUnidadMedida"].Visible = false;
             dgvLista.Columns["estado"].Visible = false;
             dgvLista.Columns["codigo"].HeaderText = "Código";
             dgvLista.Columns["descripcion"].HeaderText = "Descripción";
@@ -38,10 +39,19 @@ namespace CpMinerva
             btnEliminar.Enabled = lista.Count > 0;
         }
 
+        private void cargarUnidadesMedida()
+        {
+            var unidadesMedida = UnidadMedidaCln.listar();
+            cbxUnidadMedida.DataSource = unidadesMedida;
+            cbxUnidadMedida.DisplayMember = "descripcion";
+            cbxUnidadMedida.ValueMember = "id";
+        }
+
         private void FrmProducto_Load(object sender, EventArgs e)
         {
             Size = new Size(835, 362);
             listar();
+            cargarUnidadesMedida();
         }
 
         private void limpiar()
@@ -76,7 +86,7 @@ namespace CpMinerva
             var producto = ProductoCln.obtenerUno(id);
             txtCodigo.Text = producto.codigo;
             txtDescripcion.Text = producto.descripcion;
-            cbxUnidadMedida.Text = producto.unidadMedida;
+            cbxUnidadMedida.SelectedValue = producto.idUnidadMedida;
             nudPrecioVenta.Value = producto.precioVenta;
             nudSaldo.Value = producto.saldo;
             txtCodigo.Focus();
@@ -142,7 +152,7 @@ namespace CpMinerva
                 var producto = new Producto();
                 producto.codigo = txtCodigo.Text.Trim();
                 producto.descripcion = txtDescripcion.Text.Trim();
-                producto.unidadMedida = cbxUnidadMedida.Text;
+                producto.idUnidadMedida = Convert.ToInt32(cbxUnidadMedida.SelectedValue);
                 producto.precioVenta = nudPrecioVenta.Value;
                 producto.saldo = nudSaldo.Value;
                 producto.usuarioRegistro = Util.usuario.usuario1;

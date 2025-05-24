@@ -285,13 +285,6 @@
             // 
             this.cbxUnidadMedida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxUnidadMedida.FormattingEnabled = true;
-            this.cbxUnidadMedida.Items.AddRange(new object[] {
-            "Caja",
-            "Docena",
-            "Metro",
-            "Paquete",
-            "Pliego",
-            "Unidad"});
             this.cbxUnidadMedida.Location = new System.Drawing.Point(134, 72);
             this.cbxUnidadMedida.Name = "cbxUnidadMedida";
             this.cbxUnidadMedida.Size = new System.Drawing.Size(194, 24);

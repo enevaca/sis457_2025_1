@@ -90,6 +90,9 @@
     <Compile Include="Proveedor.cs">
       <DependentUpon>Modelo.tt</DependentUpon>
     </Compile>
+    <Compile Include="UnidadMedida.cs">
+      <DependentUpon>Modelo.tt</DependentUpon>
+    </Compile>
     <Compile Include="Usuario.cs">
       <DependentUpon>Modelo.tt</DependentUpon>
     </Compile>

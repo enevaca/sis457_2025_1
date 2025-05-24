@@ -52,9 +52,9 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idUnidadMedida" Type="int" Nullable="false" />
           <Property Name="codigo" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="descripcion" Type="varchar" MaxLength="250" Nullable="false" />
-          <Property Name="unidadMedida" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="saldo" Type="decimal" Precision="18" Scale="0" Nullable="false" />
           <Property Name="precioVenta" Type="decimal" Precision="18" Scale="0" Nullable="false" />
           <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
@@ -71,6 +71,16 @@
           <Property Name="direccion" Type="varchar" MaxLength="250" />
           <Property Name="telefono" Type="varchar" MaxLength="30" Nullable="false" />
           <Property Name="representante" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
+          <Property Name="estado" Type="smallint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UnidadMedida">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
           <Property Name="estado" Type="smallint" Nullable="false" />
@@ -123,6 +133,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="fk_Producto_UnidadMedida">
+          <End Role="UnidadMedida" Type="Self.UnidadMedida" Multiplicity="1" />
+          <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UnidadMedida">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Producto">
+              <PropertyRef Name="idUnidadMedida" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="fk_Usuario_Empleado">
           <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
           <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
@@ -147,6 +169,7 @@
           <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Producto" EntityType="Self.Producto" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Proveedor" EntityType="Self.Proveedor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UnidadMedida" EntityType="Self.UnidadMedida" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="fk_Compra_Proveedor" Association="Self.fk_Compra_Proveedor">
             <End Role="Proveedor" EntitySet="Proveedor" />
@@ -159,6 +182,10 @@
           <AssociationSet Name="fk_CompraDetalle_Producto" Association="Self.fk_CompraDetalle_Producto">
             <End Role="Producto" EntitySet="Producto" />
             <End Role="CompraDetalle" EntitySet="CompraDetalle" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Producto_UnidadMedida" Association="Self.fk_Producto_UnidadMedida">
+            <End Role="UnidadMedida" EntitySet="UnidadMedida" />
+            <End Role="Producto" EntitySet="Producto" />
           </AssociationSet>
           <AssociationSet Name="fk_Usuario_Empleado" Association="Self.fk_Usuario_Empleado">
             <End Role="Empleado" EntitySet="Empleado" />
@@ -222,15 +249,16 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idUnidadMedida" Type="Int32" Nullable="false" />
           <Property Name="codigo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="descripcion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="unidadMedida" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="saldo" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
           <Property Name="precioVenta" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
           <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="estado" Type="Int16" Nullable="false" />
           <NavigationProperty Name="CompraDetalle" Relationship="Self.fk_CompraDetalle_Producto" FromRole="Producto" ToRole="CompraDetalle" />
+          <NavigationProperty Name="UnidadMedida" Relationship="Self.fk_Producto_UnidadMedida" FromRole="Producto" ToRole="UnidadMedida" />
         </EntityType>
         <EntityType Name="Proveedor">
           <Key>
@@ -246,6 +274,17 @@
           <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="estado" Type="Int16" Nullable="false" />
           <NavigationProperty Name="Compra" Relationship="Self.fk_Compra_Proveedor" FromRole="Proveedor" ToRole="Compra" />
+        </EntityType>
+        <EntityType Name="UnidadMedida">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="descripcion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="estado" Type="Int16" Nullable="false" />
+          <NavigationProperty Name="Producto" Relationship="Self.fk_Producto_UnidadMedida" FromRole="UnidadMedida" ToRole="Producto" />
         </EntityType>
         <EntityType Name="Usuario">
           <Key>
@@ -308,12 +347,25 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="fk_Producto_UnidadMedida">
+          <End Role="UnidadMedida" Type="Self.UnidadMedida" Multiplicity="1" />
+          <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UnidadMedida">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Producto">
+              <PropertyRef Name="idUnidadMedida" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="MinervaEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Compra" EntityType="Self.Compra" />
           <EntitySet Name="CompraDetalle" EntityType="Self.CompraDetalle" />
           <EntitySet Name="Empleado" EntityType="Self.Empleado" />
           <EntitySet Name="Producto" EntityType="Self.Producto" />
           <EntitySet Name="Proveedor" EntityType="Self.Proveedor" />
+          <EntitySet Name="UnidadMedida" EntityType="Self.UnidadMedida" />
           <EntitySet Name="Usuario" EntityType="Self.Usuario" />
           <AssociationSet Name="fk_Compra_Proveedor" Association="Self.fk_Compra_Proveedor">
             <End Role="Proveedor" EntitySet="Proveedor" />
@@ -330,6 +382,10 @@
           <AssociationSet Name="fk_Usuario_Empleado" Association="Self.fk_Usuario_Empleado">
             <End Role="Empleado" EntitySet="Empleado" />
             <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Producto_UnidadMedida" Association="Self.fk_Producto_UnidadMedida">
+            <End Role="UnidadMedida" EntitySet="UnidadMedida" />
+            <End Role="Producto" EntitySet="Producto" />
           </AssociationSet>
           <FunctionImport Name="paEmpleadoListar" ReturnType="Collection(MinervaModel.paEmpleadoListar_Result)">
             <Parameter Name="parametro" Mode="In" Type="String" />
@@ -362,6 +418,7 @@
           <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
           <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
           <Property Type="Int16" Name="estado" Nullable="false" />
+          <Property Type="Int32" Name="idUnidadMedida" Nullable="false" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -418,9 +475,9 @@
             <EntityTypeMapping TypeName="MinervaModel.Producto">
               <MappingFragment StoreEntitySet="Producto">
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="idUnidadMedida" ColumnName="idUnidadMedida" />
                 <ScalarProperty Name="codigo" ColumnName="codigo" />
                 <ScalarProperty Name="descripcion" ColumnName="descripcion" />
-                <ScalarProperty Name="unidadMedida" ColumnName="unidadMedida" />
                 <ScalarProperty Name="saldo" ColumnName="saldo" />
                 <ScalarProperty Name="precioVenta" ColumnName="precioVenta" />
                 <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
@@ -438,6 +495,17 @@
                 <ScalarProperty Name="direccion" ColumnName="direccion" />
                 <ScalarProperty Name="telefono" ColumnName="telefono" />
                 <ScalarProperty Name="representante" ColumnName="representante" />
+                <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+                <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UnidadMedida">
+            <EntityTypeMapping TypeName="MinervaModel.UnidadMedida">
+              <MappingFragment StoreEntitySet="UnidadMedida">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
                 <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
                 <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
                 <ScalarProperty Name="estado" ColumnName="estado" />
@@ -487,6 +555,7 @@
                 <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
                 <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
                 <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="idUnidadMedida" ColumnName="idUnidadMedida" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

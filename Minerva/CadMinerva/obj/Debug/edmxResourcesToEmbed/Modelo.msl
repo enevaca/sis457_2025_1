@@ -50,9 +50,9 @@
       <EntityTypeMapping TypeName="MinervaModel.Producto">
         <MappingFragment StoreEntitySet="Producto">
           <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idUnidadMedida" ColumnName="idUnidadMedida" />
           <ScalarProperty Name="codigo" ColumnName="codigo" />
           <ScalarProperty Name="descripcion" ColumnName="descripcion" />
-          <ScalarProperty Name="unidadMedida" ColumnName="unidadMedida" />
           <ScalarProperty Name="saldo" ColumnName="saldo" />
           <ScalarProperty Name="precioVenta" ColumnName="precioVenta" />
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
@@ -70,6 +70,17 @@
           <ScalarProperty Name="direccion" ColumnName="direccion" />
           <ScalarProperty Name="telefono" ColumnName="telefono" />
           <ScalarProperty Name="representante" ColumnName="representante" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnidadMedida">
+      <EntityTypeMapping TypeName="MinervaModel.UnidadMedida">
+        <MappingFragment StoreEntitySet="UnidadMedida">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
           <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
           <ScalarProperty Name="estado" ColumnName="estado" />
@@ -119,6 +130,7 @@
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
           <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
           <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="idUnidadMedida" ColumnName="idUnidadMedida" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

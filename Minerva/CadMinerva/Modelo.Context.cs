@@ -32,6 +32,7 @@ namespace CadMinerva
         public virtual DbSet<Empleado> Empleado { get; set; }
         public virtual DbSet<Producto> Producto { get; set; }
         public virtual DbSet<Proveedor> Proveedor { get; set; }
+        public virtual DbSet<UnidadMedida> UnidadMedida { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
     
         public virtual ObjectResult<paEmpleadoListar_Result> paEmpleadoListar(string parametro)

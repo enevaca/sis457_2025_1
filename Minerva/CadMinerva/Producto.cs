@@ -21,9 +21,9 @@ namespace CadMinerva
         }
     
         public int id { get; set; }
+        public int idUnidadMedida { get; set; }
         public string codigo { get; set; }
         public string descripcion { get; set; }
-        public string unidadMedida { get; set; }
         public decimal saldo { get; set; }
         public decimal precioVenta { get; set; }
         public string usuarioRegistro { get; set; }
@@ -32,5 +32,6 @@ namespace CadMinerva
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CompraDetalle> CompraDetalle { get; set; }
+        public virtual UnidadMedida UnidadMedida { get; set; }
     }
 }

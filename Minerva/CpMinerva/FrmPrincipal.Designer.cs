@@ -68,7 +68,12 @@
             this.ribbonButton10 = new C1.Win.Ribbon.RibbonButton();
             this.ribbonButton11 = new C1.Win.Ribbon.RibbonButton();
             this.ribbonTopToolBar1 = new C1.Win.Ribbon.RibbonTopToolBar();
+            this.ribbonTab6 = new C1.Win.Ribbon.RibbonTab();
+            this.ribbonGroup9 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnExEliminar = new C1.Win.Ribbon.RibbonButton();
+            this.ribbonButton13 = new C1.Win.Ribbon.RibbonButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.c1Ribbon1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -88,6 +93,7 @@
             this.c1Ribbon1.Tabs.Add(this.ribbonTab3);
             this.c1Ribbon1.Tabs.Add(this.ribbonTab4);
             this.c1Ribbon1.Tabs.Add(this.ribbonTab5);
+            this.c1Ribbon1.Tabs.Add(this.ribbonTab6);
             this.c1Ribbon1.TopToolBarHolder = this.ribbonTopToolBar1;
             // 
             // ribbonApplicationMenu1
@@ -346,6 +352,32 @@
             // 
             this.ribbonTopToolBar1.Name = "ribbonTopToolBar1";
             // 
+            // ribbonTab6
+            // 
+            this.ribbonTab6.Groups.Add(this.ribbonGroup9);
+            this.ribbonTab6.Name = "ribbonTab6";
+            this.ribbonTab6.Text = "Extra";
+            // 
+            // ribbonGroup9
+            // 
+            this.ribbonGroup9.Items.Add(this.btnExEliminar);
+            this.ribbonGroup9.Items.Add(this.ribbonButton13);
+            this.ribbonGroup9.Name = "ribbonGroup9";
+            this.ribbonGroup9.Text = "Group";
+            // 
+            // btnExEliminar
+            // 
+            this.btnExEliminar.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnExEliminar.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(32, 32), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnExEliminar.IconSet")))));
+            this.btnExEliminar.Name = "btnExEliminar";
+            this.btnExEliminar.Text = "Button";
+            // 
+            // ribbonButton13
+            // 
+            this.ribbonButton13.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.ribbonButton13.Name = "ribbonButton13";
+            this.ribbonButton13.Text = "Button";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -354,8 +386,18 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(768, 189);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(306, 205);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 39);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
             // 
             // FrmPrincipal
             // 
@@ -363,6 +405,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(768, 350);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.c1Ribbon1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -420,6 +463,11 @@
         private C1.Win.Ribbon.RibbonGroup ribbonGroup8;
         private C1.Win.Ribbon.RibbonButton ribbonButton10;
         private C1.Win.Ribbon.RibbonButton ribbonButton11;
+        private C1.Win.Ribbon.RibbonTab ribbonTab6;
+        private C1.Win.Ribbon.RibbonGroup ribbonGroup9;
+        private C1.Win.Ribbon.RibbonButton btnExEliminar;
+        private C1.Win.Ribbon.RibbonButton ribbonButton13;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

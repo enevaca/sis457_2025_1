@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cpminerva\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\cpminerva\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "CpMinerva\\FrmPrincipal.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAhwCYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:55:39.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T14:55:39.768Z"
             },
             {
               "$type": "Document",
@@ -54,8 +53,7 @@
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "CpMinerva\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:55:36.495Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-24T14:55:36.495Z"
             },
             {
               "$type": "Document",
@@ -63,8 +61,8 @@
               "Title": "FrmVenta.cs",
               "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmVenta.cs",
               "RelativeDocumentMoniker": "CpMinerva\\FrmVenta.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmVenta.cs*",
-              "RelativeToolTip": "CpMinerva\\FrmVenta.cs*",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmVenta.cs",
+              "RelativeToolTip": "CpMinerva\\FrmVenta.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAMwB0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T14:53:23.314Z",
@@ -79,8 +77,7 @@
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs [Dise\u00F1o]",
               "RelativeToolTip": "CpMinerva\\FrmProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:39:53.512Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-24T14:39:53.512Z"
             },
             {
               "$type": "Document",
@@ -88,8 +85,8 @@
               "Title": "FrmVenta.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmVenta.cs",
               "RelativeDocumentMoniker": "CpMinerva\\FrmVenta.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmVenta.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "CpMinerva\\FrmVenta.cs [Dise\u00F1o]*",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpMinerva\\FrmVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T14:39:21.797Z",
               "EditorCaption": " [Dise\u00F1o]"

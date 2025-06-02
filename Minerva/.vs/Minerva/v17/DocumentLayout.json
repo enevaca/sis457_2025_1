@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\",
+  "WorkspaceRootPath": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\informatica\\sis457\\prueba de comit\\sis457_2025_1\\minerva\\cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE99CA85-19C5-4C85-9078-A50A103A6A9B}|CadMinerva\\CadMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cadminerva\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|d:\\informatica\\sis457\\prueba de comit\\sis457_2025_1\\minerva\\cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA247F8-A0AF-4F06-9DDE-FBC479BDD142}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE99CA85-19C5-4C85-9078-A50A103A6A9B}|CadMinerva\\CadMinerva.csproj|D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\cadminerva\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{FE99CA85-19C5-4C85-9078-A50A103A6A9B}|CadMinerva\\CadMinerva.csproj|solutionrelative:cadminerva\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A275F7F-9152-4CBD-86F6-2BF4B5E425D9}|ClnMinerva\\ClnMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\clnminerva\\unidadmedidacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A275F7F-9152-4CBD-86F6-2BF4B5E425D9}|ClnMinerva\\ClnMinerva.csproj|D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\clnminerva\\unidadmedidacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A275F7F-9152-4CBD-86F6-2BF4B5E425D9}|ClnMinerva\\ClnMinerva.csproj|solutionrelative:clnminerva\\unidadmedidacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE99CA85-19C5-4C85-9078-A50A103A6A9B}|CadMinerva\\CadMinerva.csproj|d:\\usfx\\sis457\\sis457_2025_1\\minerva\\cadminerva\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{FE99CA85-19C5-4C85-9078-A50A103A6A9B}|CadMinerva\\CadMinerva.csproj|D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\cadminerva\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{FE99CA85-19C5-4C85-9078-A50A103A6A9B}|CadMinerva\\CadMinerva.csproj|solutionrelative:cadminerva\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -34,15 +38,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "CpMinerva\\FrmPrincipal.cs",
+              "ToolTip": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmPrincipal.cs",
+              "RelativeToolTip": "CpMinerva\\FrmPrincipal.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAtwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T23:10:04.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FrmProducto.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs",
+              "DocumentMoniker": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs",
               "RelativeDocumentMoniker": "CpMinerva\\FrmProducto.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs",
+              "ToolTip": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs",
               "RelativeToolTip": "CpMinerva\\FrmProducto.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAMwJoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +68,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FrmProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs",
+              "DocumentMoniker": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs",
               "RelativeDocumentMoniker": "CpMinerva\\FrmProducto.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmProducto.cs [Dise\u00F1o]",
               "RelativeToolTip": "CpMinerva\\FrmProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T22:53:14.559Z",
@@ -63,36 +80,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UnidadMedidaCln.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\ClnMinerva\\UnidadMedidaCln.cs",
+              "DocumentMoniker": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\ClnMinerva\\UnidadMedidaCln.cs",
               "RelativeDocumentMoniker": "ClnMinerva\\UnidadMedidaCln.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\ClnMinerva\\UnidadMedidaCln.cs",
+              "ToolTip": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\ClnMinerva\\UnidadMedidaCln.cs",
               "RelativeToolTip": "ClnMinerva\\UnidadMedidaCln.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:52:34.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T22:52:34.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Modelo.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CadMinerva\\Modelo.edmx",
+              "DocumentMoniker": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CadMinerva\\Modelo.edmx",
               "RelativeDocumentMoniker": "CadMinerva\\Modelo.edmx",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CadMinerva\\Modelo.edmx [Diagram1]",
-              "RelativeToolTip": "CadMinerva\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CadMinerva\\Modelo.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-06-02T22:51:47.686Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-06-02T22:51:47.686Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FrmPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmPrincipal.cs",
+              "DocumentMoniker": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "CpMinerva\\FrmPrincipal.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CpMinerva\\FrmPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CpMinerva\\FrmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "CpMinerva\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T22:46:08.054Z",
@@ -100,16 +115,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CadMinerva\\App.config",
+              "DocumentMoniker": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CadMinerva\\App.config",
               "RelativeDocumentMoniker": "CadMinerva\\App.config",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\CadMinerva\\App.config",
+              "ToolTip": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\CadMinerva\\App.config",
               "RelativeToolTip": "CadMinerva\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-02T22:52:23.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T22:52:23.716Z"
             }
           ]
         }

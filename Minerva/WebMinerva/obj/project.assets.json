@@ -7673,23 +7673,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Noel\\.nuget\\packages\\": {},
+    "C:\\Users\\LENOVO RYZEN 5\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\WebMinerva.csproj",
+      "projectUniqueName": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\WebMinerva\\WebMinerva.csproj",
       "projectName": "WebMinerva",
-      "projectPath": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\WebMinerva.csproj",
-      "packagesPath": "C:\\Users\\Noel\\.nuget\\packages\\",
-      "outputPath": "D:\\usfx\\SIS457\\sis457_2025_1\\Minerva\\WebMinerva\\obj\\",
+      "projectPath": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\WebMinerva\\WebMinerva.csproj",
+      "packagesPath": "C:\\Users\\LENOVO RYZEN 5\\.nuget\\packages\\",
+      "outputPath": "D:\\Informatica\\sis457\\Prueba de Comit\\sis457_2025_1\\Minerva\\WebMinerva\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Noel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO RYZEN 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7717,7 +7717,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -7761,7 +7761,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

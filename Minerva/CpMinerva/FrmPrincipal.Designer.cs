@@ -67,11 +67,11 @@
             this.ribbonGroup8 = new C1.Win.Ribbon.RibbonGroup();
             this.ribbonButton10 = new C1.Win.Ribbon.RibbonButton();
             this.ribbonButton11 = new C1.Win.Ribbon.RibbonButton();
-            this.ribbonTopToolBar1 = new C1.Win.Ribbon.RibbonTopToolBar();
             this.ribbonTab6 = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup9 = new C1.Win.Ribbon.RibbonGroup();
             this.btnExEliminar = new C1.Win.Ribbon.RibbonButton();
             this.ribbonButton13 = new C1.Win.Ribbon.RibbonButton();
+            this.ribbonTopToolBar1 = new C1.Win.Ribbon.RibbonTopToolBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.c1Ribbon1)).BeginInit();
@@ -348,10 +348,6 @@
             this.ribbonButton11.Name = "ribbonButton11";
             this.ribbonButton11.Text = "Acerca De...";
             // 
-            // ribbonTopToolBar1
-            // 
-            this.ribbonTopToolBar1.Name = "ribbonTopToolBar1";
-            // 
             // ribbonTab6
             // 
             this.ribbonTab6.Groups.Add(this.ribbonGroup9);
@@ -378,6 +374,10 @@
             this.ribbonButton13.Name = "ribbonButton13";
             this.ribbonButton13.Text = "Button";
             // 
+            // ribbonTopToolBar1
+            // 
+            this.ribbonTopToolBar1.Name = "ribbonTopToolBar1";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -395,9 +395,10 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(306, 205);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 39);
+            this.label1.Size = new System.Drawing.Size(144, 39);
             this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.label1.Text = "Prueba ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FrmPrincipal
             // 

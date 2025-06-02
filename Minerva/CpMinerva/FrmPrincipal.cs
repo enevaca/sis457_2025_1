@@ -38,5 +38,10 @@ namespace CpMinerva
         {
             new FrmVenta().ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
